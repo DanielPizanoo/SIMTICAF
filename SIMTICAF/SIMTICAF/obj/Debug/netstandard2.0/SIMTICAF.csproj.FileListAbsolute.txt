@@ -1,0 +1,15 @@
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\SIMTICAF.deps.json
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\SIMTICAF.dll
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\ref\SIMTICAF.dll
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\SIMTICAF.pdb
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.csprojAssemblyReference.cache
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.csproj.CoreCompileInputs.cache
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.AssemblyInfoInputs.cache
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.AssemblyInfo.cs
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.dll
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\ref\SIMTICAF.dll
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.pdb
