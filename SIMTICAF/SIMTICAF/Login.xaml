@@ -20,7 +20,7 @@
                 <StackLayout Grid.Row="1" Padding="60, 10">
                     <Entry Placeholder="Usuario" PlaceholderColor="White" x:Name="user"/>
                     <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" x:Name="pass"/>
-                    <Button x:Name="BtnLogin" Text="Iniciar Sesion" BackgroundColor="CadetBlue" BorderRadius="20" Clicked="BtnLogin_Clicked" />
+                    <Button x:Name="BtnLogin" Text="Iniciar Sesion" BackgroundColor="CadetBlue" BorderRadius="20" Clicked="BtnLogin_Clicked" TextColor="White"/>
                 </StackLayout>
             </Grid>
         </Grid>

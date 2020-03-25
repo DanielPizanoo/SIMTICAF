@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SIMTICAF.Index">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView Color="Gray" />
+            <Grid Padding="0, 180">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="1" Padding="60, 20">
+                    <Button x:Name="BtnRegistrar" Text="Registro" BackgroundColor="LightBlue" BorderRadius="20" 
+                            Clicked="Btn_Registrar" TextColor="Black"
+                            WidthRequest="200" HeightRequest="70"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" Padding="60, 20">
+                    <Button x:Name="BtnCategorias" Text="Categorias" BackgroundColor="LightBlue" BorderRadius="20" 
+                            Clicked="Btn_Categorias" TextColor="Black" 
+                            WidthRequest="200" HeightRequest="70"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="3" Padding="60, 20">
+                    <Button x:Name="BtnReportes" Text="Reportes" BackgroundColor="LightBlue" BorderRadius="20" 
+                            Clicked="Btn_Reportes" TextColor="Black"
+                            WidthRequest="200" HeightRequest="70"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="4" Padding="60, 20">
+                    <Button x:Name="BtnSalir" Text="Salir" BackgroundColor="LightBlue" BorderRadius="20" 
+                            Clicked="Btn_Reportes" TextColor="Black" 
+                            WidthRequest="200" HeightRequest="70"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
