@@ -6,26 +6,6 @@
              mc:Ignorable="d"
              x:Class="SIMTICAF.Login">
     <ContentPage.Content>
-        <!--<StackLayout Orientation="Vertical" Padding="30" Spacing="40" BackgroundColor="Gray">
-            <BoxView HeightRequest="50"/>
-            <Image HorizontalOptions="Center" WidthRequest="300" Source="logo.png"/>
-            <Frame BackgroundColor="Gray" HasShadow="False">
-                <StackLayout Orientation="Vertical" Spacing="10">
-                    <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"
-                           PlaceholderColor="White" HeightRequest="80"
-                           Keyboard="Email"
-                           TextColor="White"/>
-                    <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Password"
-                           PlaceholderColor="White" HeightRequest="80"
-                           IsPassword="True"
-                           TextColor="White"/>
-                </StackLayout>
-            </Frame>
-            <Button Command="{Binding SubmitCommand}" Text="Login" TextColor="White"
-                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"
-                    BackgroundColor="DeepSkyBlue" />
-        </StackLayout>-->
-
         <Grid>
             <BoxView Color="Gray" />
             <Grid>
@@ -35,12 +15,12 @@
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
 
-                <Image Grid.Row="0" Source="logo.png" WidthRequest="100" HeightRequest="100" Margin="0, 50, 0, 0, 50" />
+                <Image Grid.Row="0" Source="logo.png" WidthRequest="300" HeightRequest="300" Margin="20, 80, 20, 20" />
 
-                <StackLayout Grid.Row="1" Padding="60, 50">
-                    <Entry Placeholder="Usuario" PlaceholderColor="White" />
-                    <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" />
-                    <Button Text="Iniciar Sesion" BackgroundColor="CadetBlue" BorderRadius="20" />
+                <StackLayout Grid.Row="1" Padding="60, 10">
+                    <Entry Placeholder="Usuario" PlaceholderColor="White" x:Name="user"/>
+                    <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" x:Name="pass"/>
+                    <Button x:Name="BtnLogin" Text="Iniciar Sesion" BackgroundColor="CadetBlue" BorderRadius="20" Clicked="BtnLogin_Clicked" />
                 </StackLayout>
             </Grid>
         </Grid>
