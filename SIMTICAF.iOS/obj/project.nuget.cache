@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eQ1vRLRM158BrgrH+9Zt3W6YgcOOKpTR3N3mp9zrBhecVFLLk0wJgaYgcSRb9dvr+jGkGkxGo3asKbe0p7jmUg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.iOS\\SIMTICAF.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DanielPizano\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
