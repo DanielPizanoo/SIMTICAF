@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <Grid>
             <BoxView Color="Gray" />
-            <Grid Padding="0, 180">
+            <Grid Padding="0, 100">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
@@ -32,7 +32,7 @@
                             WidthRequest="200" HeightRequest="70"/>
                 </StackLayout>
 
-                <StackLayout Grid.Row="4" Padding="60, 20">
+                <StackLayout Grid.Row="4" Padding="60, 0">
                     <Button x:Name="BtnSalir" Text="Salir" BackgroundColor="IndianRed" BorderRadius="20" 
                             TextColor="Black" 
                             WidthRequest="200" HeightRequest="70"/>

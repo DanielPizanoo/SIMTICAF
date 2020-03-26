@@ -18,19 +18,18 @@ namespace SIMTICAF
             InitializeComponent();
         }
 
-        private void BtnLogin_Clicked(object sender, EventArgs eventArgs)
+        private void BtnLogin_Clicked(object sender, EventArgs e)
         {
             var usuario = user.Text;
-            var contra = pass.Text;
+            var password = user.Text;
 
-            if (!string.IsNullOrEmpty(usuario))
+            if (!string.IsNullOrEmpty(usuario) && !string.IsNullOrEmpty(password))
             {
-                DisplayAlert("Error", "Favor de ingresar usuario", "Aceptar");
-            }
-
-            if (!string.IsNullOrEmpty(contra))
+                DisplayAlert("Error", "Favor de llenar los campos", "Aceptar");
+            } 
+            else
             {
-                DisplayAlert("Error", "Favor de ingresar contraseña", "Aceptar");
+                this.Navigation.PushModalAsync(new Index());
             }
         }
     }
