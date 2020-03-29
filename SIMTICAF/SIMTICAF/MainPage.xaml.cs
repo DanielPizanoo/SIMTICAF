@@ -29,7 +29,7 @@ namespace SIMTICAF
             } 
             else
             {
-                this.Navigation.PushModalAsync(new Index());
+                this.Navigation.PushAsync(new Index());
             }
         }
     }

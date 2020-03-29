@@ -13,3 +13,6 @@ C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstand
 C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\ref\SIMTICAF.dll
 C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.pdb
 C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Index.xaml.g.cs
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Registrar.xaml.g.cs
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Categorias.xaml.g.cs
+C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Reportes.xaml.g.cs

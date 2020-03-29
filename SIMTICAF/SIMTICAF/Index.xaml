@@ -4,10 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="SIMTICAF.Index">
+             x:Class="SIMTICAF.Index"
+             BackgroundColor="Gray">
     <ContentPage.Content>
         <Grid>
-            <BoxView Color="Gray" />
             <Grid Padding="0, 100">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
@@ -16,26 +16,28 @@
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
 
-                <StackLayout Grid.Row="1" Padding="60, 20">
-                    <Button x:Name="BtnRegistrar" Text="Registro" BackgroundColor="LightBlue" BorderRadius="20" TextColor="Black" WidthRequest="200" HeightRequest="70"/>
+                <StackLayout Grid.Row="1" Padding="60, 10">
+                    <Button x:Name="BtnRegistrar" Text="Registro" BackgroundColor="LightBlue" BorderRadius="20" 
+                            TextColor="Black" 
+                            WidthRequest="200" HeightRequest="70" Clicked="BtnRegistrar_Clicked" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Padding="60, 20">
                     <Button x:Name="BtnCategorias" Text="Categorias" BackgroundColor="LightBlue" BorderRadius="20" 
                             TextColor="Black" 
-                            WidthRequest="200" HeightRequest="70"/>
+                            WidthRequest="200" HeightRequest="70" Clicked="BtnCategorias_Clicked" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Padding="60, 20">
                     <Button x:Name="BtnReportes" Text="Reportes" BackgroundColor="LightBlue" BorderRadius="20" 
                             TextColor="Black"
-                            WidthRequest="200" HeightRequest="70"/>
+                            WidthRequest="200" HeightRequest="70" Clicked="BtnReportes_Clicked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Padding="60, 0">
                     <Button x:Name="BtnSalir" Text="Salir" BackgroundColor="IndianRed" BorderRadius="20" 
                             TextColor="Black" 
-                            WidthRequest="200" HeightRequest="70"/>
+                            WidthRequest="200" HeightRequest="70" Clicked="BtnSalir_Clicked" />
                 </StackLayout>
             </Grid>
         </Grid>

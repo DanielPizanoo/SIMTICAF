@@ -16,5 +16,25 @@ namespace SIMTICAF
         {
             InitializeComponent();
         }
+
+        private void BtnSalir_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PopAsync();
+        }
+
+        private void BtnRegistrar_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PushAsync(new Registrar());
+        }
+
+        private void BtnCategorias_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PushAsync(new Categorias());
+        }
+
+        private void BtnReportes_Clicked(Object sender, EventArgs e)
+        {
+            this.Navigation.PushAsync(new Reportes());
+        }
     }
 }

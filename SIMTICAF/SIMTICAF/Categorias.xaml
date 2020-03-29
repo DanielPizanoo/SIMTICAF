@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SIMTICAF.Categorias"
+             BackgroundColor="Gray">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="30, 0, 30, 400" >
+            <Label Text="Categorías" FontSize="35" Margin="30" VerticalOptions="Center"  TextColor="Yellow" HorizontalTextAlignment="Center"/>
+
+            <Button Text="Agregar" BackgroundColor="Green"/>
+
+            <ListView x:Name="ListaCategorias" BackgroundColor="LightGray">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Alimentos</x:String>
+                        <x:String>Transportes</x:String>
+                        <x:String>Personal</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
