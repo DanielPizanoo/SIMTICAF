@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "fgJw8cjx/KodWbucMrzTzqnIaUMnxt5ldLU5PrpFu+H1GYkGMltPW6TQMkMcrwKJAmXsjQ/SAryCnh7p3bjdjQ==",
+  "dgSpecHash": "glOVqYJQ3BA1VgA3CNnMRRFSQX8PzoAuB4D8P30tH5HbRVTc6C8qw+fJxHZueJZ3Ko0Wz82QKM+S/zF4SMh75g==",
   "success": true,
   "projectFilePath": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DanielPizano\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\DanielPizano\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\DanielPizano\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+    "C:\\Users\\DanielPizano\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\DanielPizano\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"
   ],
   "logs": []
 }

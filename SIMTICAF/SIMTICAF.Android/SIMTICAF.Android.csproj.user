@@ -3,6 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
     <SelectedDevice>Motorola Moto Z3 Play</SelectedDevice>
-    <DefaultDevice>device</DefaultDevice>
+    <DefaultDevice>Pixel_2_API_26</DefaultDevice>
   </PropertyGroup>
 </Project>
