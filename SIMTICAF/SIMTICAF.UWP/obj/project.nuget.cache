@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "oB5zSnZzguAS1jv9+jDstZdRjjoNznOIxrXmr/4cNiZXV3tm8qGM7rv5qSp00QBNP7o07J57M3TtOtrzJMi10w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
+  "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DanielPizano\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Users\\DanielPizano\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
