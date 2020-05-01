@@ -1934,24 +1934,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DanielPizano\\.nuget\\packages\\": {},
+    "C:\\Users\\Daniel Pizano\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
       "projectName": "SIMTICAF.Android",
-      "projectPath": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
-      "packagesPath": "C:\\Users\\DanielPizano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\obj\\",
+      "projectPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
+      "packagesPath": "C:\\Users\\Daniel Pizano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\DanielPizano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Daniel Pizano\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
-              "projectPath": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
+            "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
+              "projectPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
             }
           }
         }

@@ -8,10 +8,9 @@
              BackgroundColor="Gray">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="30, 0, 30, 400" >
-            <Label Text="Categorías" FontSize="35" Margin="30" VerticalOptions="Center"  TextColor="Yellow" HorizontalTextAlignment="Center"/>
-
-            <Button Text="Agregar" BackgroundColor="Green"/>
-
+            <Label Text="Categorías" FontSize="35" Margin="30" VerticalOptions="Center"  TextColor="Yellow" WidthRequest="100" HeightRequest="40" HorizontalTextAlignment="Center"/>
+            <Button Text="Agregar" WidthRequest="100" HeightRequest="50" BackgroundColor="Green"/>
+            
             <ListView x:Name="ListaCategorias" BackgroundColor="LightGray">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type x:String}">

@@ -16,3 +16,21 @@ C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstand
 C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Registrar.xaml.g.cs
 C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Categorias.xaml.g.cs
 C:\Users\DanielPizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Reportes.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\SIMTICAF.deps.json
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\SIMTICAF.dll
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\ref\SIMTICAF.dll
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\bin\Debug\netstandard2.0\SIMTICAF.pdb
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.csprojAssemblyReference.cache
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Categorias.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Index.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Registrar.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Reportes.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.AssemblyInfoInputs.cache
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.AssemblyInfo.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.dll
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\ref\SIMTICAF.dll
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.pdb
