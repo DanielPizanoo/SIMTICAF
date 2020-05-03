@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "glOVqYJQ3BA1VgA3CNnMRRFSQX8PzoAuB4D8P30tH5HbRVTc6C8qw+fJxHZueJZ3Ko0Wz82QKM+S/zF4SMh75g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj",
+  "projectFilePath": "C:\\Users\\DanielPizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DanielPizano\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\DanielPizano\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
