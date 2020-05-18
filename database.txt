@@ -1,0 +1,10 @@
+mex.000webhost.com
+
+sitio: simticaf
+contraseña: FcrP($w#Z2!wEG3TrzuK
+
+
+Database: simticaf
+usuario: admin
+contraseña: ww[7V<fo+SBh$K1<
+host: localhost
