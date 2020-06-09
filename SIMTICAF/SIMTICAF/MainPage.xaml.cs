@@ -1,10 +1,13 @@
-﻿using System;
+﻿using SIMTICAF.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Newtonsoft.Json;
 
 namespace SIMTICAF
 {
@@ -24,49 +27,33 @@ namespace SIMTICAF
 
         private async void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            var usuario = user.Text;
-            var password = pass.Text;
-
-            var us = "admin";
-            var pa = "admin";
-
-            if (string.IsNullOrEmpty (user.Text))
+            if (String.IsNullOrEmpty(user.Text) || String.IsNullOrEmpty(pass.Text))
             {
-                await DisplayAlert("Error", "Debe ingresar un usuario", "Aceptar");
-                user.Focus();
-                return;
+                await DisplayAlert("Alerta", "Favor de llenar los datos de inicio", "Aceptar");
             }
-
-            if (string.IsNullOrEmpty(pass.Text))
+            else
             {
-                await DisplayAlert("Error", "Debe ingresar una contraseña", "Aceptar");
-                pass.Focus();
-                return;
-            }
+                Usuarios usuario = new Usuarios();
+                usuario.usuario = user.Text.ToString();
+                usuario.pass = pass.Text.ToString();
 
-            if (user.Text != us)
-            {
-                await DisplayAlert("Alerta", "Usuario incorrecto", "Aceptar");
-                pass.Focus();
-                return;
-            }
+                HttpClient cliente = new HttpClient();
+                String URL = "https://simticaf.000webhostapp.com/ValidarLogin.php";
 
-            if (pass.Text != pa)
-            {
-                await DisplayAlert("Alerta", "Contraseña incorrecto", "Aceptar");
-                pass.Focus();
-                return;
-            }
+                String jsonUsuario = JsonConvert.SerializeObject(usuario);
+                var res = await cliente.PostAsync(URL, new StringContent(jsonUsuario));
+                var response = res.Content.ReadAsStringAsync().Result;
 
-            if (user.Text == us)
-            {
-                if (pass.Text == pa)
+                if (response == "1")
                 {
-                    this.Navigation.PushAsync(new Index());
+                    await Navigation.PushAsync(new Index());
+                }
+                else
+                {
+                    await DisplayAlert("Alerta", "Usuario y contraseña incorrectos", "Aceptar");
                 }
             }
-            //this.Navigation.PushAsync(new Index());
+            
         }
     }
 }
-//this.Navigation.PushAsync(new Index());

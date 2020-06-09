@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W8BM34plLDl6PY6LU+TsBDkt3bOylce7VeBiqnhDnPf8rHaF31bmHBRWWofdzI3DrXH5Ys91R/G7CtWECwNwJw==",
+  "dgSpecHash": "PORQVcy0O6QUOdHRk5SdTMNY3zDnr1M+Hf2uh9fEyCrl42r427qXzbusDyPQkq9QUMtBcFWI9yi5f5UGx8kR3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\mysql.data\\8.0.20\\mysql.data.8.0.20.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\Daniel Pizano\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\ssh.net\\2016.1.0\\ssh.net.2016.1.0.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\sshnet.security.cryptography\\1.2.0\\sshnet.security.cryptography.1.2.0.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
