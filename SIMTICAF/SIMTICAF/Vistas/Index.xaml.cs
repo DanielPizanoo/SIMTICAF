@@ -34,7 +34,7 @@ namespace SIMTICAF
 
         private void BtnReportes_Clicked(Object sender, EventArgs e)
         {
-            this.Navigation.PushAsync(new Reportes());
+            this.Navigation.PushAsync(new Registros());
         }
     }
 }

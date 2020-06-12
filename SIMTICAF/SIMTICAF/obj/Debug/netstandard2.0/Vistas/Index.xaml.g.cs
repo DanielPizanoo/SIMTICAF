@@ -23,7 +23,7 @@ namespace SIMTICAF {
         private global::Xamarin.Forms.Button BtnCategorias;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button BtnReportes;
+        private global::Xamarin.Forms.Button BtnRegistros;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button BtnSalir;
@@ -33,7 +33,7 @@ namespace SIMTICAF {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Index));
             BtnRegistrar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnRegistrar");
             BtnCategorias = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnCategorias");
-            BtnReportes = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnReportes");
+            BtnRegistros = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnRegistros");
             BtnSalir = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnSalir");
         }
     }

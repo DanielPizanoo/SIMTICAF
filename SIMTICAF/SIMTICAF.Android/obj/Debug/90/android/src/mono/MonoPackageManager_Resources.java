@@ -3,8 +3,22 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "SIMTICAF.Android.dll" comes first in this list. */
 		"SIMTICAF.Android.dll",
+		"BouncyCastle.Crypto.dll",
 		"FormsViewGroup.dll",
+		"Google.Protobuf.dll",
+		"K4os.Compression.LZ4.dll",
+		"K4os.Compression.LZ4.Streams.dll",
+		"K4os.Hash.xxHash.dll",
+		"MySql.Data.dll",
+		"Newtonsoft.Json.dll",
+		"Renci.SshNet.dll",
 		"SIMTICAF.dll",
+		"SshNet.Security.Cryptography.dll",
+		"System.Configuration.ConfigurationManager.dll",
+		"System.Security.AccessControl.dll",
+		"System.Security.Permissions.dll",
+		"System.Security.Principal.Windows.dll",
+		"Ubiety.Dns.Core.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -47,6 +61,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Zstandard.Net.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

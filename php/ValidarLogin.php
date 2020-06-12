@@ -1,17 +1,14 @@
 <?php
     require('Conexion.php');
+    $data = jason_decode(file_get_contents('php://input'), true);
 
-    $consulta="SELECT usuario, pass FROM usuarios";
+    $consulta="SELECT * FROM usuarios WHERE usuario = '".$data['usuario']."' and pass = '".$data['pass']."'";
     $res=mysqli_query($conexion,$consulta);
+    $numfilas=mysqli_num_rows($res);
 
-    $datos=array();
-
-    foreach($res as $filas){
-        array_push($datos, array(
-            'usuario'=>$filas['usuario'],
-            'pass'=>$filas['pass']
-        ));
+    if ($numfilas>0) {
+        echo 1;
+    } else {
+        echo 0;
     }
-
-    echo json_encode($datos,JSON_UNESCAPED_UNICODE);
 ?>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sWRPRtjU1/XZKIxIsNUcVcquNwYMZTk+78oV1++4QcpcJnl0SSFVuhVcPd9mU+WbUgoPG75VvieCGRt1wnfFDg==",
+  "dgSpecHash": "xsRiRkxBBFc+40o8qz7wGIbasMVKH3D1m9j7ClJFOA+K14Y2Inq/zXEjwcOL44x1A8FD60sJ63sDIn2BqVnIxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
   "expectedPackageFiles": [
@@ -108,7 +108,7 @@
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\Daniel Pizano\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\xamarin.forms\\4.6.0.772\\xamarin.forms.4.6.0.772.nupkg.sha512"
   ],

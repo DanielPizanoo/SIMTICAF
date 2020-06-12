@@ -25,7 +25,7 @@ namespace SIMTICAF
             //registros.precio_u = preciou.Text;
             //registros.cantidad = cantidad.Text;
             //registros.id_categoria = categoria;
-            registros.descripcion = descripcion.Text.ToString();
+            //registros.descripcion = descripcion.Text.ToString();
 
             HttpClient cliente = new HttpClient();
 

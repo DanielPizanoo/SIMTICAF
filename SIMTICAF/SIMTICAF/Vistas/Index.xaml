@@ -29,7 +29,7 @@
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Padding="60, 20">
-                    <Button x:Name="BtnReportes" Text="Reportes" BackgroundColor="LightBlue" BorderRadius="20" 
+                    <Button x:Name="BtnRegistros" Text="Registros" BackgroundColor="LightBlue" BorderRadius="20" 
                             TextColor="Black"
                             WidthRequest="200" HeightRequest="70" Clicked="BtnReportes_Clicked"/>
                 </StackLayout>
