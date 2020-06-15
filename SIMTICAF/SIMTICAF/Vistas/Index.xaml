@@ -16,25 +16,25 @@
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
 
-                <StackLayout Grid.Row="1" Padding="60, 10">
+                <StackLayout Grid.Row="1" Padding="60, 1">
                     <Button x:Name="BtnRegistrar" Text="Registro" BackgroundColor="LightBlue" BorderRadius="20" 
                             TextColor="Black" 
                             WidthRequest="200" HeightRequest="70" Clicked="BtnRegistrar_Clicked" />
                 </StackLayout>
 
-                <StackLayout Grid.Row="2" Padding="60, 20">
+                <StackLayout Grid.Row="2" Padding="60, 10">
                     <Button x:Name="BtnCategorias" Text="Categorias" BackgroundColor="LightBlue" BorderRadius="20" 
                             TextColor="Black" 
                             WidthRequest="200" HeightRequest="70" Clicked="BtnCategorias_Clicked" />
                 </StackLayout>
 
-                <StackLayout Grid.Row="3" Padding="60, 20">
+                <StackLayout Grid.Row="3" Padding="60, 10">
                     <Button x:Name="BtnMovimientos" Text="Movimientos" BackgroundColor="LightBlue" BorderRadius="20" 
                             TextColor="Black"
                             WidthRequest="200" HeightRequest="70" Clicked="BtnMovimientos_Clicked"/>
                 </StackLayout>
 
-                <StackLayout Grid.Row="4" Padding="60, 0">
+                <StackLayout Grid.Row="4" Padding="60, 10">
                     <Button x:Name="BtnSalir" Text="Salir" BackgroundColor="IndianRed" BorderRadius="20" 
                             TextColor="Black" 
                             WidthRequest="200" HeightRequest="70" Clicked="BtnSalir_Clicked" />

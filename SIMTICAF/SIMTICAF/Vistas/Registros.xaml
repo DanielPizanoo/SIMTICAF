@@ -33,10 +33,10 @@
 
                 <StackLayout Grid.Row="3" Padding="80, 5">
                     <Label Text="Categoría" TextColor="White" FontSize="24" />
-                    <Entry Keyboard="Text" x:Name="cat" PlaceholderColor="Gray" Placeholder="0" TextColor="Gray" HorizontalTextAlignment="Center" />
-                    <!--<Picker x:Name="MainPicker" ItemsSource="{Binding Categorias}" ItemDisplayBinding="{Binding descripcion}" SelectedIndex="{Binding id_categoria}"/>-->
+                    <!--<Entry Keyboard="Text" x:Name="cat" PlaceholderColor="Gray" Placeholder="Categoría" TextColor="Gray" HorizontalTextAlignment="Center" />-->
+                    <Picker x:Name="cat" ItemsSource="{Binding Categorias}" ItemDisplayBinding="{Binding descripcion}" SelectedIndex="{Binding id_categoria}"/>
                 </StackLayout>
-
+                
                 <StackLayout Grid.Row="4" Padding="80, 5">
                     <Label Text="Descripción" TextColor="White" FontSize="24" />
                     <Entry Keyboard="Text" x:Name="des" PlaceholderColor="Gray" Placeholder="Descripción" TextColor="Gray" HorizontalTextAlignment="Center" />

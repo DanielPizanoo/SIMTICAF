@@ -29,7 +29,10 @@ namespace SIMTICAF.Vistas
                 Clases.Registros registro = new Clases.Registros();
                 registro.cantidad = can.Text.ToString();
                 registro.preciou = pre.Text.ToString();
-                registro.categoria = cat.Text.ToString();
+                //registro.categoria = cat.Text.ToString();
+                var cate = cat.SelectedIndex;
+                string categ = cate.ToString();
+                registro.categoria = categ;
                 registro.descripcion = des.Text.ToString();
 
                 HttpClient cliente = new HttpClient();
@@ -46,24 +49,24 @@ namespace SIMTICAF.Vistas
             }
         }
 
-        /*protected async override void OnAppearing()
+        protected async override void OnAppearing()
         {
             base.OnAppearing();
 
             try
             {
-                GetCategorias getc = new GetCategorias();
+                Clases.GetCategorias getc = new Clases.GetCategorias();
                 var res = await getc.getCategoriasList();
 
                 if (res != null)
                 {
-                    MainPicker.ItemsSource = res;
+                    cat.ItemsSource = res;
                 }
             }
             catch (Exception e)
             {
                 await DisplayAlert("Error", " " + e, "Ok");
             }
-        }*/
+        }
     }
 }

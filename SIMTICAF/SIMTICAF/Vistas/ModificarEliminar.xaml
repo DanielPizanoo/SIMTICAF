@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SIMTICAF.Vistas.ModificarEliminar"
+             BackgroundColor="Gray">
+    <ContentPage.Content>
+        <Grid>
+            <Grid Padding="0, 10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+            </Grid>
+
+            <StackLayout Grid.Row="0" Padding="80, 30">
+                <Label Text="Categorías" FontSize="35" Margin="30" VerticalOptions="Center"  TextColor="Yellow" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Padding="80, 5">
+                <Entry x:Name="textCategoria" Placeholder="Categoría" PlaceholderColor="Gray" TextColor="Gray" />
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" Padding="80, 5">
+                <Button Text="Modificar" Clicked="Button_Clicked"/>
+                <Button Text="Eliminar" Clicked="Button_Clicked_1"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="3" Padding="80, 5">
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

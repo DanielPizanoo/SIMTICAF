@@ -1,1 +1,1 @@
-C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF.UWP\SIMTICAF.UWP.csproj;x86
+D:\Users\Daniel Pizano\Desktop\SIMTICAF\SIMTICAF\SIMTICAF.UWP\SIMTICAF.UWP.csproj;x86

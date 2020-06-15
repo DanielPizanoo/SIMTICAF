@@ -23,6 +23,13 @@ namespace SIMTICAF.Vistas
             this.Navigation.PushAsync(new Vistas.AgregarCategorias());
         }
 
+        /*
+        public void Btn_Modificar(object sender, EventArgs e)
+        {
+            this.Navigation.PushAsync(new Vistas.ModificarEliminar());
+        }
+        */
+
         protected async override void OnAppearing()
         {
             base.OnAppearing();
