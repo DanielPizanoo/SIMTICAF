@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="SIMTICAF.Index"
+             x:Class="SIMTICAF.Vistas.Index"
              BackgroundColor="Gray">
     <ContentPage.Content>
         <Grid>
@@ -29,9 +29,9 @@
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Padding="60, 20">
-                    <Button x:Name="BtnRegistros" Text="Registros" BackgroundColor="LightBlue" BorderRadius="20" 
+                    <Button x:Name="BtnMovimientos" Text="Movimientos" BackgroundColor="LightBlue" BorderRadius="20" 
                             TextColor="Black"
-                            WidthRequest="200" HeightRequest="70" Clicked="BtnReportes_Clicked"/>
+                            WidthRequest="200" HeightRequest="70" Clicked="BtnMovimientos_Clicked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Padding="60, 0">

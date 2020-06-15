@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SIMTICAF.Clases;
 
-namespace SIMTICAF
+namespace SIMTICAF.Vistas
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Categorias : ContentPage
@@ -16,10 +17,30 @@ namespace SIMTICAF
         {
             InitializeComponent();
         }
-        
+
         public void Btn_AgregarCategoria(object sender, EventArgs e)
         {
-            this.Navigation.PushAsync(new Vistas.AgregarCategoria());
+            this.Navigation.PushAsync(new Vistas.AgregarCategorias());
+        }
+
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            try
+            {
+                Clases.GetCategorias getc = new Clases.GetCategorias();
+                var res = await getc.getCategorias();
+
+                if (res != null)
+                {
+                    ListaCategorias.ItemsSource = res;
+                }
+            }
+            catch (Exception e)
+            {
+                await DisplayAlert("Error", " " + e, "Ok");
+            }
         }
     }
 }

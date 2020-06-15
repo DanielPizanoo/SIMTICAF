@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SIMTICAF.Vistas.Categorias.xaml", "Vistas/Categorias.xaml", typeof(global::SIMTICAF.Categorias))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SIMTICAF.Vistas.Categorias.xaml", "Vistas/Categorias.xaml", typeof(global::SIMTICAF.Vistas.Categorias))]
 
-namespace SIMTICAF {
+namespace SIMTICAF.Vistas {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Vistas\\Categorias.xaml")]

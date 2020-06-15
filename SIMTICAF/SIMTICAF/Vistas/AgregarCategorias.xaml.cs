@@ -11,26 +11,20 @@ using Xamarin.Forms.Xaml;
 namespace SIMTICAF.Vistas
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AgregarCategoria : ContentPage
+    public partial class AgregarCategorias : ContentPage
     {
 
 
-        public AgregarCategoria()
+        public AgregarCategorias()
         {
             InitializeComponent();
-        }
-        public void Btn_Agregando(object sender, EventArgs e)
-        {
-
-
-            ((NavigationPage)this.Parent).PushAsync(new Categorias());
         }
 
         private async void BtnAgregar_Clicked(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(EntryCategoria.Text))
             {
-                await DisplayAlert("Alerta", "Favor de llenar los datos de inicio", "Aceptar");
+                await DisplayAlert("Alerta", "Ingresar la categoria al insertar", "Aceptar");
             }
             else
             {
@@ -47,7 +41,7 @@ namespace SIMTICAF.Vistas
                 if (res.IsSuccessStatusCode)
 
                 {
-                    await Navigation.PushAsync(new Categorias());
+                    this.Navigation.PopAsync();
                 }
             }
 

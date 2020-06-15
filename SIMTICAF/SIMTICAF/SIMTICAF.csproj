@@ -21,13 +21,13 @@
     <Compile Update="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Vistas\Registros.xaml.cs">
-      <DependentUpon>Registros.xaml</DependentUpon>
+    <Compile Update="Vistas\AgregarCategorias.xaml.cs">
+      <DependentUpon>AgregarCategorias.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Vistas\AgregarCategoria.xaml">
+    <EmbeddedResource Update="Vistas\AgregarCategorias.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Vistas\Categorias.xaml">
@@ -36,7 +36,7 @@
     <EmbeddedResource Update="Vistas\Index.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Vistas\Registrar.xaml">
+    <EmbeddedResource Update="Vistas\Movimientos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Vistas\Registros.xaml">

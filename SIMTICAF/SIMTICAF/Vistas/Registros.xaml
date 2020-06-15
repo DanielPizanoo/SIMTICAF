@@ -4,46 +4,48 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="SIMTICAF.Registros"
+             x:Class="SIMTICAF.Vistas.Registros"
              BackgroundColor="Gray">
+    <ContentPage.Content>
+        <Grid>
+            <Grid Padding="0, 10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
 
-    <StackLayout Margin="60">
+                <StackLayout Grid.Row="0" Padding="80, 30">
+                    <Label Text="Registrar Movimientos" TextColor="Yellow" FontSize="30" HorizontalTextAlignment="Center" />
+                </StackLayout>
 
-        <Label Text="Reportes" TextColor="Yellow" FontSize="40" HorizontalTextAlignment="Center"/>
+                <StackLayout Grid.Row="1" Padding="80, 5">
+                    <Label Text="Cantidad" TextColor="White" FontSize="24" />
+                    <Entry Keyboard="Text" x:Name="can" PlaceholderColor="Gray" Placeholder="0" TextColor="Gray" HorizontalTextAlignment="Center" />
+                </StackLayout>
 
-        <Picker Title="Categoría" TitleColor="White" FontSize="20" TextColor="White" Margin="10" >
-            <Picker.Items>
-                <x:String>Alimentos</x:String>
-                <x:String>Entretenimiento</x:String>
-                <x:String>Pagos</x:String>
-            </Picker.Items>
-        </Picker>
+                <StackLayout Grid.Row="2" Padding="80, 5">
+                    <Label Text="Precio Unitario" TextColor="White" FontSize="24" />
+                    <Entry Keyboard="Text" x:Name="pre" PlaceholderColor="Gray" Placeholder="0" TextColor="Gray" HorizontalTextAlignment="Center" />
+                </StackLayout>
 
-        <StackLayout>
-            <Label Text=""
-               Style="{DynamicResource TitleStyle}"
-               Margin="0, 20"
-               HorizontalTextAlignment="Center" />
+                <StackLayout Grid.Row="3" Padding="80, 5">
+                    <Label Text="Categoría" TextColor="White" FontSize="24" />
+                    <Entry Keyboard="Text" x:Name="cat" PlaceholderColor="Gray" Placeholder="0" TextColor="Gray" HorizontalTextAlignment="Center" />
+                    <!--<Picker x:Name="MainPicker" ItemsSource="{Binding Categorias}" ItemDisplayBinding="{Binding descripcion}" SelectedIndex="{Binding id_categoria}"/>-->
+                </StackLayout>
 
-            <Label Text="Desde:" TextColor="White" FontSize="14" />
+                <StackLayout Grid.Row="4" Padding="80, 5">
+                    <Label Text="Descripción" TextColor="White" FontSize="24" />
+                    <Entry Keyboard="Text" x:Name="des" PlaceholderColor="Gray" Placeholder="Descripción" TextColor="Gray" HorizontalTextAlignment="Center" />
+                </StackLayout>
 
-            <DatePicker x:Name="startDatePicker" Format="D" Margin="30, 0, 0, 30" TextColor="White" FontSize="14" />
-
-            <Label Text="Hasta:" TextColor="White" FontSize="14" />
-
-            <DatePicker x:Name="endDatePicker" Format="D" Margin="30, 0, 0, 30" TextColor="White" FontSize="14" />
-
-        </StackLayout>
-
-        <StackLayout Margin="10,25,20,50">
-            <Button Text="Aceptar"
-                    TextColor="Black"
-                    BackgroundColor="LightBlue"
-                    BorderColor="LightBlue"
-                    CornerRadius="12"
-                    WidthRequest="150"
-                    HeightRequest="50"/>
-        </StackLayout>
-
-    </StackLayout>
+                <StackLayout Grid.Row="5" Padding="80, 5">
+                    <Button x:Name="BtnGuardar" Text="Guardar" BackgroundColor="BurlyWood" TextColor="Gray" Clicked="BtnGuardar_Clicked" />
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

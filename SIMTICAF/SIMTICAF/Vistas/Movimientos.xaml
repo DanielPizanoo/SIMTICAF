@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SIMTICAF.Vistas.Movimientos"
+             BackgroundColor="Gray">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="30, 0, 30, 20" >
+            <Label Text="Movimientos" FontSize="35" Margin="30" VerticalOptions="Center"  TextColor="Yellow" WidthRequest="100" HeightRequest="40" HorizontalTextAlignment="Center"/>
+
+
+            <ListView x:Name="ListaMovimientos" BackgroundColor="LightGray">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding descripcion}" FontAttributes="Bold" />
+                                <Label Text="{Binding preciou}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,21 +8,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SIMTICAF.Vistas.AgregarCategoria.xaml", "Vistas/AgregarCategoria.xaml", typeof(global::SIMTICAF.Vistas.AgregarCategoria))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SIMTICAF.Vistas.AgregarCategorias.xaml", "Vistas/AgregarCategorias.xaml", typeof(global::SIMTICAF.Vistas.AgregarCategorias))]
 
 namespace SIMTICAF.Vistas {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Vistas\\AgregarCategoria.xaml")]
-    public partial class AgregarCategoria : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Vistas\\AgregarCategorias.xaml")]
+    public partial class AgregarCategorias : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Entry EntryCategoria;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button AgregarCate;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AgregarCategoria));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AgregarCategorias));
             EntryCategoria = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "EntryCategoria");
+            AgregarCate = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "AgregarCate");
         }
     }
 }

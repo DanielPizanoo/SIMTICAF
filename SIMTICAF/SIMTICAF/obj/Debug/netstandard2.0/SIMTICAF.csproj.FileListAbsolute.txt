@@ -30,8 +30,8 @@ C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstan
 C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.pdb
 C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Vistas\Categorias.xaml.g.cs
 C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Vistas\Index.xaml.g.cs
-C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Vistas\Registrar.xaml.g.cs
-C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Vistas\AgregarCategoria.xaml.g.cs
 C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\SIMTICAF.csproj.CoreCompileInputs.cache
 C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Vistas\AgregarCategorias.xaml.g.cs
+C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Vistas\Movimientos.xaml.g.cs
 C:\Users\Daniel Pizano\source\repos\SIMTICAF\SIMTICAF\SIMTICAF\obj\Debug\netstandard2.0\Vistas\Registros.xaml.g.cs

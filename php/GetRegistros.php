@@ -11,8 +11,7 @@
             'id_registro'=>$filas['id_registro'],
             'cantidad'=>$filas['cantidad'],
             'preciou'=>$filas['preciou'],
-            'creacion'=>$filas['creacion'],
-            'id_categoria'=>$filas['id_categoria'],
+            'categoria'=>$filas['categoria'],
             'descripcion'=>$filas['descripcion']
         ));
     }

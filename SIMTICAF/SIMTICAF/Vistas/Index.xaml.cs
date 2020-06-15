@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace SIMTICAF
+namespace SIMTICAF.Vistas
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Index : ContentPage
@@ -17,24 +17,24 @@ namespace SIMTICAF
             InitializeComponent();
         }
 
-        private void BtnSalir_Clicked(object sender, EventArgs e)
-        {
-            this.Navigation.PopAsync();
-        }
-
         private void BtnRegistrar_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PushAsync(new Registrar());
+            this.Navigation.PushAsync(new Vistas.Registros());
         }
 
         private void BtnCategorias_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PushAsync(new Categorias());
+            this.Navigation.PushAsync(new Vistas.Categorias());
         }
 
-        private void BtnReportes_Clicked(Object sender, EventArgs e)
+        private void BtnMovimientos_Clicked(Object sender, EventArgs e)
         {
-            this.Navigation.PushAsync(new Registros());
+            this.Navigation.PushAsync(new Vistas.Movimientos());
+        }
+
+        private void BtnSalir_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PopAsync();
         }
     }
 }

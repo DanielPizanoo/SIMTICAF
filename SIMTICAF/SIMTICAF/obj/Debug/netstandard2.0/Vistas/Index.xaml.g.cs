@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SIMTICAF.Vistas.Index.xaml", "Vistas/Index.xaml", typeof(global::SIMTICAF.Index))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SIMTICAF.Vistas.Index.xaml", "Vistas/Index.xaml", typeof(global::SIMTICAF.Vistas.Index))]
 
-namespace SIMTICAF {
+namespace SIMTICAF.Vistas {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Vistas\\Index.xaml")]
@@ -23,7 +23,7 @@ namespace SIMTICAF {
         private global::Xamarin.Forms.Button BtnCategorias;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button BtnRegistros;
+        private global::Xamarin.Forms.Button BtnMovimientos;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button BtnSalir;
@@ -33,7 +33,7 @@ namespace SIMTICAF {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Index));
             BtnRegistrar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnRegistrar");
             BtnCategorias = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnCategorias");
-            BtnRegistros = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnRegistros");
+            BtnMovimientos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnMovimientos");
             BtnSalir = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnSalir");
         }
     }

@@ -11,8 +11,6 @@ using Newtonsoft.Json;
 
 namespace SIMTICAF
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
@@ -20,10 +18,6 @@ namespace SIMTICAF
         {
             InitializeComponent();
         }
-
-        /*static string conexion = "SERVER=127.0.0.1;PORT=3306;DATABASE=simticaf;UID=root;PASSWORDS=;";
-        MySqlConnection cn = new MySqlConnection(conexion);
-        */
 
         private async void BtnLogin_Clicked(object sender, EventArgs e)
         {
@@ -46,7 +40,9 @@ namespace SIMTICAF
 
                 if (response == "1")
                 {
-                    await Navigation.PushAsync(new Index());
+                    user.Text = "";
+                    pass.Text = "";
+                    await Navigation.PushAsync(new Vistas.Index());
                 }
                 else
                 {
