@@ -18,7 +18,6 @@ CREATE TABLE registros (
     id_registro     INTEGER NOT NULL AUTO_INCREMENT,
     cantidad        INTEGER NOT NULL,
     preciou         FLOAT NOT NULL,
-    creacion        TIMESTAMP NOT NULL,
     id_categoria    INTEGER NOT NULL,
     descripcion     VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_registro)

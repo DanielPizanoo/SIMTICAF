@@ -19179,11 +19179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
       "projectName": "SIMTICAF.UWP",
-      "projectPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
+      "projectPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
       "packagesPath": "C:\\Users\\Daniel Pizano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -19205,8 +19205,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
-              "projectPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
+            "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
+              "projectPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4khchzc76Je5VKy9mt2G4uEGXI9AU1o+gR8IMJ8SDcDapkyVLvDZgy6NbFUxod5q4vBAQDW4JKO6tUt5pZfLw==",
+  "dgSpecHash": "VAYfDSyg//kwjZIn5Z8g9Tb2cLOIxaTsu9nfqxrWIUGGWrVxfc/emRDBHGzlHfSmKOkztVQPnDA05Toc9VTgQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
+  "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

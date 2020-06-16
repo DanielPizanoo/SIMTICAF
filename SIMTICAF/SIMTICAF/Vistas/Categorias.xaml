@@ -7,10 +7,9 @@
              x:Class="SIMTICAF.Vistas.Categorias"
              BackgroundColor="Gray">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="30, 0, 30, 20" >
-            <Label Text="Categorías" FontSize="35" Margin="30" VerticalOptions="Center"  TextColor="Yellow" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center"/>
-            <Button Text="Agregar" WidthRequest="100" HeightRequest="50" BackgroundColor="Green" Clicked="Btn_AgregarCategoria"/>
-            <!--<Button Text="Editar" WidthRequest="100" HeightRequest="50" BackgroundColor="Green" Clicked="Btn_Modificar" />-->
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="20, 0, 20, 20" >
+            <Label Text="Categorías" FontSize="35" Margin="20" VerticalOptions="Center"  TextColor="Yellow" WidthRequest="100" HeightRequest="60" HorizontalTextAlignment="Center"/>
+            <Button Text="Agregar" WidthRequest="100" HeightRequest="40" BackgroundColor="BurlyWood" TextColor="Black" Clicked="Btn_AgregarCategoria"/>
 
             <ListView x:Name="ListaCategorias" BackgroundColor="LightGray">
                 <ListView.ItemTemplate>

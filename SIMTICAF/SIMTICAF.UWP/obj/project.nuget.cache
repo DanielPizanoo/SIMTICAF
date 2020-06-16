@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xsRiRkxBBFc+40o8qz7wGIbasMVKH3D1m9j7ClJFOA+K14Y2Inq/zXEjwcOL44x1A8FD60sJ63sDIn2BqVnIxQ==",
+  "dgSpecHash": "wVdWb2O+GYbhJRXgqLojJ6MS9gAyyFlmpLi4qFuzISmFvvtRAmq7g0JpuvdhfojVMF/tTZ+1U51KJsFtbiUmVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
+  "projectFilePath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.UWP\\SIMTICAF.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Daniel Pizano\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

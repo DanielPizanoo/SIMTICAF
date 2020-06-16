@@ -6314,11 +6314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
       "projectName": "SIMTICAF.Android",
-      "projectPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
+      "projectPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\SIMTICAF.Android.csproj",
       "packagesPath": "C:\\Users\\Daniel Pizano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\obj\\",
+      "outputPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6339,8 +6339,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
-              "projectPath": "C:\\Users\\Daniel Pizano\\source\\repos\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
+            "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
+              "projectPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
             }
           }
         }

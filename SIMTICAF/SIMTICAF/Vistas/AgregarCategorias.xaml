@@ -16,16 +16,16 @@
                 </Grid.RowDefinitions>
             </Grid>
 
-            <StackLayout Grid.Row="0" Padding="80, 40">
+            <StackLayout Grid.Row="0" Padding="30, 40">
                 <Label Text="Agregar Categorías" TextColor="Yellow" FontSize="30" HorizontalTextAlignment="Center"/>
             </StackLayout>
 
-            <StackLayout Grid.Row="1" Padding="80, 5">
-                <Entry x:Name="EntryCategoria" Placeholder="Agregar Categoria" TextColor="Gray" />
+            <StackLayout Grid.Row="1" Padding="50, 5">
+                <Entry x:Name="EntryCategoria" Placeholder="Agregar Categoria" PlaceholderColor="White" TextColor="White" />
             </StackLayout>
 
-            <StackLayout Grid.Row="2" Padding="80, 5">
-                <Button x:Name="AgregarCate" Text="Insertar" WidthRequest="100" HeightRequest="50" BackgroundColor="Green" Clicked="BtnAgregar_Clicked"></Button>
+            <StackLayout Grid.Row="2" Padding="50, 5">
+                <Button x:Name="AgregarCate" Text="Insertar" TextColor="Black" WidthRequest="100" HeightRequest="50" BackgroundColor="BurlyWood"  Clicked="BtnAgregar_Clicked"></Button>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

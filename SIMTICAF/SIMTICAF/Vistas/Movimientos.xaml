@@ -7,7 +7,7 @@
              x:Class="SIMTICAF.Vistas.Movimientos"
              BackgroundColor="Gray">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="30, 0, 30, 20" >
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="20, 0, 20, 20" >
             <Label Text="Movimientos" FontSize="35" Margin="30" VerticalOptions="Center"  TextColor="Yellow" WidthRequest="100" HeightRequest="40" HorizontalTextAlignment="Center"/>
 
             <ListView x:Name="ListaMovimientos" BackgroundColor="LightGray"> 

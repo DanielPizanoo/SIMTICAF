@@ -11,15 +11,22 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Image Grid.Row="0" Source="logo.png" WidthRequest="300" HeightRequest="300" Margin="20, 50, 20, 20" />
+            <Image Grid.Row="0" Source="logo.png" WidthRequest="200" HeightRequest="200" Margin="20, 50, 20, 20" />
 
             <StackLayout Grid.Row="1" Padding="60, 10">
-                <Entry Placeholder="Usuario" PlaceholderColor="White" x:Name="user" TextColor="White"/>
-                <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" x:Name="pass" TextColor="White"/>
+                <Entry Placeholder="Usuario" x:Name="user" TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" Padding="60, 10">
+                <Entry Placeholder="Contraseña" IsPassword="True" x:Name="pass" TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="3" Padding="60, 10">
                 <Button x:Name="BtnLogin" Text="Iniciar Sesion" BackgroundColor="CadetBlue" BorderRadius="10" Clicked="BtnLogin_Clicked" TextColor="Black"/>
             </StackLayout>
         </Grid>
