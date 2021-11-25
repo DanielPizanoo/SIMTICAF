@@ -7618,26 +7618,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel Pizano\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\danie\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.iOS\\SIMTICAF.iOS.csproj",
+      "projectUniqueName": "D:\\Users\\danie\\SIMTICAF\\SIMTICAF\\SIMTICAF.iOS\\SIMTICAF.iOS.csproj",
       "projectName": "SIMTICAF.iOS",
-      "projectPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.iOS\\SIMTICAF.iOS.csproj",
-      "packagesPath": "C:\\Users\\Daniel Pizano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF.iOS\\obj\\",
+      "projectPath": "D:\\Users\\danie\\SIMTICAF\\SIMTICAF\\SIMTICAF.iOS\\SIMTICAF.iOS.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\danie\\SIMTICAF\\SIMTICAF\\SIMTICAF.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel Pizano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -7649,8 +7649,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
-              "projectPath": "C:\\Users\\Daniel Pizano\\source\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
+            "D:\\Users\\danie\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj": {
+              "projectPath": "D:\\Users\\danie\\SIMTICAF\\SIMTICAF\\SIMTICAF\\SIMTICAF.csproj"
             }
           }
         }
